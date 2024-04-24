@@ -169,45 +169,7 @@ nav ul li a {
 
 }
 /**Main**/
-.container{
-    display:flex;
-}
 
-.trabajo{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    flex-basis: 30%;
-
-}
-.titulo{
-    flex-basis: 70%;
-    text-align: center;
-    position:relative;
-    
-}
-.titulo h2{
-    font-size: 5rem;
-    color: #2a4b7a;
-
-}
-.trabajo h3{
-    color: orangered;
-    text-align: center;
-    font-size: 2.5rem;
-}
-.trabajo p{
-    font-size: 1.8rem;
-    color: #053477;
-    flex-basis: 40%;
-    text-align: center;
-    line-height:1.2em;
-}
-.trabajo img{
-    max-width:15%;
-    float:left;
-    margin-right: 2.5rem;
-}
 
 /**Contacto**/
 

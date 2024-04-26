@@ -182,10 +182,8 @@ nav ul li a {
 }
 .titulo{
     flex-basis: 70%;
-    text-align: center;
     position:relative;
-    
-    text-align: left;
+    text-align: center;
 }
 .bloques{
     display:flex;
@@ -208,11 +206,6 @@ nav ul li a {
     font-size: 2.5rem;
     
 }
-.trabajo h3{
-    flex-basis: 30%;
-    color: orangered;
-    text-align: center;
-}
 .trabajo p{
     font-size: 1.8rem;
     color: #053477;
@@ -227,13 +220,78 @@ nav ul li a {
     flex-basis: 70%;
     text-align: center;
 }
-.trabajo img{
-    max-width:10%;
+.cont{
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
 }
+.cont h2{
+    font-size: 5rem;
+    color: #2a4b7a;
+    margin:0 auto;
+    padding-bottom: 5rem;
+}
+.cont h3{
+    font-size: 2.5rem;
+    color: #F75F1C;
+}
+.equipo{
+    display: flex;
+    justify-content: center;
 
+}
+.equipo img{
+    max-width: 50%;
+}
+.equipo p{
+    font-size: 1.8rem;
+    color:#053477;
+}
+.persona{
+    Flex-basis: Calc(33.3% - 2rem);
+}
 /**Contacto**/
-
-
+.contacto{
+    display: flex;
+    background-color: #2A4B7A;
+    justify-content: center;
+}
+.contacto textarea{
+    height: 20rem;
+    width: 50%;
+}
+.titulo{
+    flex-basis: 30%;
+}
+.titulo h2{
+    color: #F75F1C;
+}
+.lista{
+    list-style-type: none;
+    font-size: 15px;
+    margin: 0;
+    color:#ffffff;
+}
+.lista li{
+    word-wrap: break-word;
+}
+.formulario{
+    flex-basis: 70%;
+}
+.formulario legend{
+    font-size: 2.2rem;
+    color:#F75F1C;
+}
+.formulario label{
+    display: block;
+    width: 8rem;
+    color:#ffffff;
+}
+.info input,select{
+    width: 50%;
+    height: 50%;
+}
 /**Botones**/
 
 

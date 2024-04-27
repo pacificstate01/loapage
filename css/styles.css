@@ -180,7 +180,7 @@ nav ul li a {
     flex-basis: 30%;
 
 }
-.titulo{
+.titulo2{
     flex-basis: 70%;
     position:relative;
     text-align: center;
@@ -195,7 +195,7 @@ nav ul li a {
     justify-items: center;
 
 }
-.titulo h2{
+.titulo2 h2{
     font-size: 5rem;
     color: #2a4b7a;
 
@@ -245,7 +245,7 @@ nav ul li a {
     max-width: 50%;
 }
 .equipo p{
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     color:#053477;
 }
 .persona{
@@ -255,44 +255,110 @@ nav ul li a {
 .contacto{
     display: flex;
     background-color: #2A4B7A;
-    justify-content: center;
 }
 .contacto textarea{
     height: 20rem;
-    width: 50%;
+    width: 60%;
 }
 .titulo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
     flex-basis: 30%;
+    font-size: 1.5rem;
+    margin-bottom: 12rem;
+    margin-left: 20rem;
+    margin-right: 6rem;
 }
 .titulo h2{
     color: #F75F1C;
+    font-size: 5rem;
+    margin-left:8rem;
 }
-.lista{
+.titulo ul{ 
+    margin-left: 15rem;
+    text-align: start;  
     list-style-type: none;
-    font-size: 15px;
-    margin: 0;
     color:#ffffff;
 }
-.lista li{
-    word-wrap: break-word;
+.titulo li{
+    padding-bottom: 1rem;
 }
 .formulario{
     flex-basis: 70%;
+}
+.formulario form{
+    margin-top: 2rem;
 }
 .formulario legend{
     font-size: 2.2rem;
     color:#F75F1C;
 }
-.formulario label{
+.info label{
     display: block;
-    width: 8rem;
+    font-size: 1.5rem;
     color:#ffffff;
 }
 .info input,select{
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 3rem;
 }
 /**Botones**/
-
-
+.boton input{
+    color:#ffffff;
+    background-color:   #E35619;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display:inline-block;
+    text-align: center;
+    border:none;
+}
 /**Footer**/
+.footer-container{
+    display:flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    color: #2A4B7A;
+}
+.container-logos{
+    display: flex;
+    justify-content: center;
+    background-color:#E35619 ;
+}
+.container-logos ul{
+    list-style: none;
+    margin-top: 1rem;
+    margin-right: 10rem;
+    
+}
+.container-logos img{
+    float:left;
+    max-width: 5%;
+    margin-left: 15rem;
+}
+.bloque-info{
+    font-size: 2rem;
+    display:flex;
+}
+.about,.medios,.contact{
+    margin-top:2rem;
+    margin-left: 10rem;
+    margin-bottom: 3rem;
+    width:50%;
+}
+.contact p{
+    margin-top: 2rem;
+}
+.titulo3{
+    font-size: 2.5rem;
+}
+.titulo3::after{
+    content:"";
+    display:block;
+    width: 33.3rem;
+    height:.2rem;
+    background-color: #E35619   ;
+}
